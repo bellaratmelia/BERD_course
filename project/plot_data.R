@@ -1,4 +1,7 @@
+# load the tidyverse library
 library(tidyverse)
+
+# read CSV file and save to a tibble
 south_asia <- read_csv(file = "sadata.csv")
 
 # Simple plot
